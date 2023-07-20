@@ -1,0 +1,211 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/**********************************************/
+/****************************************/
+/********************************/
+/* Navegación */
+
+
+header {
+    width: 100%;
+    height: 60px;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .nav-right-section {
+    width: 250px;
+    height: auto;
+    justify-content: center;
+    display: flex;
+    list-style: none;
+    align-items: center;
+
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav-right-section a {
+    margin-right: 10px;
+    color: rgb(21, 21, 21);
+
+}
+
+nav .nav-right-section .menu {
+    background-image: url(https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png);
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+nav .nav-right-section img {
+    border-radius: 50%;
+    margin-left: 10px;
+    width: 35px;
+
+}
+
+/* ******************************************************************************************MAIN**************************************************************************************************************************************************************************************************************** */
+/**sección del logo-**/
+
+main {
+    margin-top: 94px;
+    text-align: center;
+}
+
+main .main-logo {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+main .main-logo img {
+    width: 272px;
+
+  
+
+}
+
+/**sección del buscador**/
+main .main-input {
+    width: 550px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+main .main-input-container {
+    border: 1px solid #dfe1e5;
+    border-radius: 25px;
+    width: 555px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input-container:hover {
+    box-shadow: 0 0 5px #20212447;
+    cursor: text;
+
+}
+
+main .main-input input {
+    height: 45px;
+    border: none;
+    outline: none;
+    width: 435px;
+}
+
+main .main-input .search-icon {
+    background-image: url(https://seekicon.com/free-icon-download/search_20.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-left: 6%;
+    height: 15px;
+}
+
+main .main-input .micro-icon {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left: 1%;
+    height: 17px;
+    width: 17px;
+}
+
+main .main-input .cam-icon {
+    background-image: url(https://static.wikia.nocookie.net/logopedia/images/2/2b/Google_Lens_2021.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-right: 6%;
+    height: 17px;
+    width: 17px;
+}
+
+
+/**sección de botones**/
+
+main .main-button {
+    width: 550px;
+    margin: 0 auto;
+
+}
+
+main .main-button div {
+    /**inline-block (misma linea)**/
+    display: inline-block;
+}
+
+main .main-button button {
+    background-color: #f8f9fa;
+    border: none;
+    height: 35px;
+    font-size: 15px;
+    color: #3c4043;
+    padding: 0 15px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+main .main-button button:hover {
+    color: #202124;
+    border: 1px solid #dadce0;
+    cursor: pointer;
+    box-shadow: 0 1px 1px #20212447;
+
+
+}
+
+/* ******************************************************************************************FOOTER**************************************************************************************************************************************************************************************************************** */
+/**sección de footer**/
+footer {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+
+}
+
+footer ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+footer .footer-left{
+    justify-content: left;
+}
+
+footer .footer-right{
+    justify-content: right;
+}
+
+footer ul a{
+    margin: 10px;
+    color: #5f6368; 
+}
+
+footer ul a:hover{
+    margin: 10px;
+    text-decoration:underline;
+}
